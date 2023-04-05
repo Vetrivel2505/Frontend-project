@@ -1,0 +1,104 @@
+.store {
+    display: flex;
+    background-color: #000000;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 50px;
+    color: #f6f6f6;
+  }
+  
+  .games {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #f6f6f6;
+    border-radius: 10px;
+  }
+  
+  img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  button {
+    background-color: #77cb56;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #a93e3e;
+    color: #f7f7f7;
+  }
+  
+  .cart {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #f8f8f8;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .cart-game {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .cart-game img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-right: 20px;
+    color: #f1f1f1;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-right: 20px;
+    color: #faf1f1;
+  }
+  
+  
